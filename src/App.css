@@ -27,6 +27,38 @@
 
 .buttons .buttonsExtras{
   padding: 50px;
+  border-radius: 10px;
   position: fixed ;
   right: 0;
 }
+
+.buttons .buttonsExtras button{
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.buttonsCatalogo .a{
+  padding-left: 100px;
+  border-radius: 100px;
+ 
+  display: flex;
+  align-items: center;
+  
+}
+
+.buttonsCatalogo .b{
+  padding-left: 300px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+.buttonsCatalogo .c{
+  padding-left: 500px;
+  border-radius: 100px;
+ 
+  display: flex;
+  align-items: center;
+}
+
