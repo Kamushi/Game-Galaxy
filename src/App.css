@@ -1,3 +1,4 @@
+
 .Topo{
   background-image: url("./res/image.png");
   width: 2000px;
@@ -37,28 +38,18 @@
   cursor: pointer;
 }
 
-.buttonsCatalogo .a{
-  padding-left: 100px;
-  border-radius: 100px;
- 
+.buttonsCatalogo {
+  padding:15px;
   display: flex;
-  align-items: center;
-  
-}
-
-.buttonsCatalogo .b{
-  padding-left: 300px;
-  border-radius: 100px;
-
-  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
-.buttonsCatalogo .c{
-  padding-left: 500px;
-  border-radius: 100px;
- 
-  display: flex;
-  align-items: center;
+.buttonsCatalogo button{
+  cursor: pointer;
 }
 
+
+.buttonsCatalogo .b h3{
+  margin-top: 35px;
+}

@@ -30,19 +30,24 @@ function App() {
       </div>
       <div className='Center'>
         <div className='buttonsCatalogo'>
-        <div className='a'>
-        <MyButton bgColor='white' altura='100px' largura='100px'><h1></h1></MyButton>
-        </div>
-        <MyButton bgColor='white' altura='100px' largura='100px'><h1></h1></MyButton>
-        <div className='b'>
-        <MyButton bgColor='white' altura='100px' largura='100px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton>
-        </div>
-        <div className='c'>
-        <MyButton bgColor='white' altura='100px' largura='100px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton>
-        </div>
-        </div>
-        <div className='Ofertas'>
-        <MyButton bgColor='white' altura='100px' largura='100px'><h1></h1></MyButton>
+         <div className='a'>
+            <MyButton bgColor='white' altura='100px' largura='150px'><h2>Todas Categorias</h2></MyButton>
+          </div>
+          <div className='b'>
+           <MyButton bgColor='white'  altura='100px' largura='100px'>
+            
+            <h3>Playstation</h3>
+           </MyButton>
+          </div>
+          <div className='c'>
+           <MyButton bgColor='white' altura='100px' largura='100px'><h2>Xbox</h2></MyButton>
+         </div>
+          <div className='d'>
+            <MyButton bgColor='white' altura='100px' largura='100px'><h2>Nintendo</h2></MyButton>
+          </div>
+          <div className='Ofertas'>
+            <MyButton bgColor='white' altura='100px' largura='150px'><h2>Ofertas</h2></MyButton>
+          </div>
         </div>
       </div>
     </div>
