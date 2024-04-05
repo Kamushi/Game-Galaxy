@@ -1,8 +1,17 @@
+.container{
+  height: 100vh;
+  background-image: url("./res/wp2127894.png")
+
+}
+
+*{
+  margin: 0;
+}
 
 .Topo{
-  background-image: url("./res/image.png");
-  width: 2000px;
-  height: 80px;
+background-image: url("./res/image.png");
+  width: 100%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +52,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* background-color: red; */
 }
 
 .buttonsCatalogo button{
@@ -52,4 +62,27 @@
 
 .buttonsCatalogo .b h3{
   margin-top: 35px;
+  background-image: ("https://imgs.search.brave.com/Lst_65qVlcCYJqQ8jfbtqrTt99hUDtvrxKvUJOalrW8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvUlBX/YUtsRlMwUmV1NVI0/eW5yN09iQVlubFJO/eHctb3hRRlU5c2lO/MGpZby5wbmc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9MmVlNjRl/YzAwZGI4N2UwMjA5/MmZmNGJlMjEyODFk/NDc4MTM3NjkzZQ");
 }
+
+.buttonsCatalogo .c h2{
+  margin-top: 35px
+}
+
+.buttonsCatalogo .d h2{
+  margin-top: 35px
+}
+
+.buttonsCatalogo .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  box-shadow: 15%;
+}
+
+
