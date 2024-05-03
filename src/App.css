@@ -1,7 +1,6 @@
 .container{
   height: 100vh;
-  background-image: url("./res/wp2127894.png")
-
+  background-color: whitesmoke;
 }
 
 *{
@@ -9,7 +8,7 @@
 }
 
 .Topo{
-background-image: url("./res/image.png");
+  background-image: url("./res/image.png");
   width: 100%;
   height: 10%;
   display: flex;
@@ -85,4 +84,7 @@ background-image: url("./res/image.png");
   box-shadow: 15%;
 }
 
+a{
+  
+}
 

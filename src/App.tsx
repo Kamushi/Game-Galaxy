@@ -4,11 +4,11 @@ import MyButton from './MyButton'
 import MyInput from './MyInput'
 import './res/font-awesome-4.7.0/css/font-awesome.min.css'
 import image from './res/Game galaxy.png'
-import mc4Image from './res/mc4.webp'
-import godImage from './res/download.png'
+import todos from './res/mc4.webp'
+import pspimage from './res/download.png'
 import xboximage from "./res/640px-Xbox_one_logo.svg.jpg"
-import mc5image from "./res/mc5.jpg"
-import mc7image from "./res/mc7.jpg"
+import bignimage from "./res/mc5.png.png"
+import Cinquentaimage from "./res/mc7.png.png"
 function App() {
   return(
     <div className='container'>
@@ -33,24 +33,13 @@ function App() {
       </div>
       <div className='Center'>
         <div className='buttonsCatalogo'>
-         <div className='card' style={{background: `url(${mc4Image})`, backgroundSize: `cover`}}>
-            {/* <MyButton bgColor='white' altura='100px' largura='150px'><h2>Todas Categorias</h2></MyButton> */}
-          </div>
-          <div className='card' style={{background: `url(${godImage})`, backgroundSize: `cover`}}>
-           {/* <MyButton bgColor='white'  altura='100px' largura='100px'> */}
-            
-            {/* <h3>Playstation</h3> */}
-           {/* </MyButton> */}
-          </div>
-          <div className='card'style={{background: `url(${xboximage})`, backgroundSize: `cover`}}>
-           {/* <MyButton bgColor='white' altura='100px' largura='100px'><h2>Xbox</h2></MyButton> */}
-         </div>
-          <div className='card' style={{background: `url(${mc5image})`, backgroundSize: `cover`}}>
-            {/* <MyButton bgColor='white' altura='100px' largura='100px'><h2>Nintendo</h2></MyButton> */}
-          </div>
-          <div className='card' style={{background: `url(${mc7image})`, backgroundSize: `cover`}}>
-            {/* <MyButton bgColor='white' altura='100px' largura='150px'><h2>Ofertas</h2></MyButton> */}
-          </div>
+         
+          <a className='card' style={{background: `todo`, backgroundSize: `cover`}} href=''/>
+          <a className='card' style={{background: `url(${pspimage})`, backgroundSize: `cover`}} href= ''/>
+          <a className='card' style={{background: `url(${xboximage})`, backgroundSize: `cover`}} href='https://search.brave.com/images?q=xbox' />
+          <a className='card' style={{background: `url(${bignimage})`, backgroundSize: `cover`}} href=''/>
+          <a className='card' style={{background: `url(${Cinquentaimage})`, backgroundSize: `cover`}} href=''/>
+
         </div>
       </div>
     </div>
