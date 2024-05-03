@@ -5,13 +5,13 @@ interface Props{
     bgColor?: string;
     bgImg?: string;
     children: ReactNode;
-    altura: string;
-    largura:string;
+    altura?: string;
+    largura?:string;
 }
 
 function MyButton(props:Props){
     return(
-    <button style={{background:`${props.bgColor}`, height:`${props.altura}`, width:`${props.largura}`, backgroundImage:`${props.bgImg}`}}>{props.children}</button>
+    <button style={{background:`${props.bgColor}`, height:`${props.altura}`, width:`${props.largura}`,}}>{props.children}</button>
     )
 }
 export default MyButton

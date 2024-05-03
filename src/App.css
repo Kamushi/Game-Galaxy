@@ -1,6 +1,7 @@
 .container{
   height: 100vh;
-  background-color: whitesmoke;
+  background-image: url("./res/wp2127894.png")
+
 }
 
 *{
@@ -57,6 +58,10 @@
 .buttonsCatalogo button{
   cursor: pointer;
 }
+ .buttonsCatalogo .card button{
+  margin-top: 130px;
+ }
+ 
 
 
 .buttonsCatalogo .b h3{
