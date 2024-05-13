@@ -5,6 +5,7 @@ import Xbox from './pages/xbox'
 import Nintendo from './pages/nintendo'
 import All from './pages/all.tsx'
 import Offer from './pages/offer.tsx'
+import Login from './login/login.jsx'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
             <Route path= "/nintendo" element= {<Nintendo/>}/>
             <Route path= "/all" element= {<All/>}/>
             <Route path= "/offer" element= {<Offer/>}/>
+            <Route path= "/login" element= {<Login/>}/>
          </Routes>
          </BrowserRouter>
   )

@@ -27,15 +27,15 @@ function First(){
             <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton> 
           </div>
           <div className='buttonsExtras'>
-            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton>
-            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-user-circle" aria-hidden="true"></i></MyButton>
+            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton >
+            <a href='/login'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-user-circle" aria-hidden="true"></i></MyButton></a>
           </div>
         </div>
       </div>
       <div className='Center'>
         <div className='buttonsCatalogo'>
          
-          <a className='card' style={{background: `url(${todos})`, backgroundSize: `cover`}} href='/all'/>
+          <a className='card' style={{background: `url(${todos})`, backgroundSize: `cover`}}  href='/all'/>
           <a className='card' style={{background: `url(${pspimage})`, backgroundSize: `cover`}} href= '/ps5'/>
           <a className='card' style={{background: `url(${xboximage})`, backgroundSize: `cover`}} href='/xbox' />
           <a className='card' style={{background: `url(${bignimage})`, backgroundSize: `cover`}} href='/nintendo'/>

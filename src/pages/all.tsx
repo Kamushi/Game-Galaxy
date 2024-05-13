@@ -1,3 +1,4 @@
+import'./all.css'
 function all(){
     return(
     <h1>all</h1>

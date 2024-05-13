@@ -4,6 +4,7 @@ import App from './App.tsx'
 // import './index.css'
 import 'swiper/css/effect-fade'
 
+
 import {register} from 'swiper/element/bundle'
 
 register()
