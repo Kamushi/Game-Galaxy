@@ -81,15 +81,28 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: red;
     width: 100px;
     height: 100px;
     cursor: pointer;
     box-shadow: 15%;
   }
   
-  a{
+.jogos .card{
+    display: inline-table;  
+    justify-content: left;
+    align-items: left;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 15%;
     
-  }
-  
+}
+
+.jogos{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 100px;
+}
   

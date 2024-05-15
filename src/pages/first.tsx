@@ -9,6 +9,16 @@ import xboximage from "../res/640px-Xbox_one_logo.svg.jpg"
 import bignimage from "../res/mc5.png.png"
 import Cinquentaimage from "../res/mc7.png.png"
 import ImagensBanner from '../ImagensBanner'
+import godc from '../res/God_of_War_Ragnarök_capa.jpg'
+import ts from '../res/The_Sims_4_29.webp'
+import sf6 from '../res/Street_Fighter_6_box_art.jpg'
+import ds from  '../res/Dark_Souls_1_capa.png'
+import ba from '../res/batman-arkham-knight-bd-3.jpg'
+import mk1 from '../res/mortal-kombat-1-key-art-vb944bnawzlk.webp'
+import lego from '../res/lego.webp'
+import sfr from '../res/Streets_of_Rage_4_-_Capa.jpg'
+
+
 
 
 function First(){
@@ -27,14 +37,14 @@ function First(){
             <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton> 
           </div>
           <div className='buttonsExtras'>
-            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton >
+            <a href='/formulatio'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton></a>
             <a href='/login'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-user-circle" aria-hidden="true"></i></MyButton></a>
           </div>
         </div>
       </div>
       <div className='Center'>
         <div className='buttonsCatalogo'>
-         
+        
           <a className='card' style={{background: `url(${todos})`, backgroundSize: `cover`}}  href='/all'/>
           <a className='card' style={{background: `url(${pspimage})`, backgroundSize: `cover`}} href= '/ps5'/>
           <a className='card' style={{background: `url(${xboximage})`, backgroundSize: `cover`}} href='/xbox' />
@@ -44,8 +54,29 @@ function First(){
       </div>
 
       <ImagensBanner />
+
+      <div className='jogos'>
+
+        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} />
+        <a className='card' style={{background: `url(${ts})`, backgroundSize: `cover`}} />
+        <a className='card' style={{background: `url(${sf6})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${ds})`, backgroundSize: `cover`}}/>
+
+      </div>  
+
+        <div className='jogos'>
+        <a className='card' style={{background: `url(${ba})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${mk1})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${lego})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${sfr})`, backgroundSize: `cover`}}/>
+
+        </div>
+
     </div>
+    
     )
+
+    
 }
 
 export default First;
