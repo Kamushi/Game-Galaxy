@@ -87,7 +87,15 @@
     box-shadow: 15%;
   }
   
-.jogos .card{
+  .jogos{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+  }
+
+
+  .jogos .card{
     display: inline-table;  
     justify-content: left;
     align-items: left;
@@ -99,10 +107,16 @@
     
 }
 
-.jogos{
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  margin: 100px;
+.linha{
+  background-image: url("../res/image.png");
+  margin-top: 4px;
 }
+
+.linha h1{
+  display: flex;
+  margin-left: 100px;
+  justify-content: center;
+  
+}
+
   

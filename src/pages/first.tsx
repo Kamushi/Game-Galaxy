@@ -21,6 +21,8 @@ import sfr from '../res/Streets_of_Rage_4_-_Capa.jpg'
 
 
 
+
+
 function First(){
     return(
         <div className='container'>
@@ -55,20 +57,24 @@ function First(){
 
       <ImagensBanner />
 
+      <div className='linha'>
+      <h1> 12 vezes s﻿em juros  15% de descontono boleto  Entrega em todo o Brasil Site 100% seguro</h1> 
+      </div>
+
       <div className='jogos'>
 
-        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} />
-        <a className='card' style={{background: `url(${ts})`, backgroundSize: `cover`}} />
-        <a className='card' style={{background: `url(${sf6})`, backgroundSize: `cover`}}/>
-        <a className='card' style={{background: `url(${ds})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} href='/Gfw' />
+        <a className='card' style={{background: `url(${ts})`, backgroundSize: `cover`}} href='/Ts'/>
+        <a className='card' style={{background: `url(${sf6})`, backgroundSize: `cover`}} href='/Sf6'/>
+        <a className='card' style={{background: `url(${ds})`, backgroundSize: `cover`}} href='/ds1'/>
 
       </div>  
 
         <div className='jogos'>
-        <a className='card' style={{background: `url(${ba})`, backgroundSize: `cover`}}/>
-        <a className='card' style={{background: `url(${mk1})`, backgroundSize: `cover`}}/>
-        <a className='card' style={{background: `url(${lego})`, backgroundSize: `cover`}}/>
-        <a className='card' style={{background: `url(${sfr})`, backgroundSize: `cover`}}/>
+        <a className='card' style={{background: `url(${ba})`, backgroundSize: `cover`}} href='/Bta'/>
+        <a className='card' style={{background: `url(${mk1})`, backgroundSize: `cover`}} href='/Mk1'/>
+        <a className='card' style={{background: `url(${lego})`, backgroundSize: `cover`}} href='/Lego'/>
+        <a className='card' style={{background: `url(${sfr})`, backgroundSize: `cover`}} href='/Sfr'/>
 
         </div>
 

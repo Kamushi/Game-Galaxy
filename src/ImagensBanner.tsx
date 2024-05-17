@@ -17,10 +17,10 @@ import r4 from './res/resident.jpg'
 function App () {
     const [slidesPerView, setSlidePerView] = useState (2)
     const data =[
-        { id:'1', Image: bu2024},
-        { id: '2', Image: gfg4},
-        { id: '3', Image: helo},
-        {id: '4', Image:hifi},
+        {id:'1', Image: bu2024} ,
+        {id: '2', Image: gfg4},
+        {id: '3', Image: helo},
+        {id: '4', Image: hifi},
         {id: '5', Image: poke},
         {id: '6',Image: oul},
         {id: '7', Image: r4},
