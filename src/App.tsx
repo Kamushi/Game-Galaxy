@@ -16,31 +16,29 @@ import Lego from './jogos/lego.tsx'
 import MK1 from './jogos/Mk1.tsx'
 import Sf6 from './jogos/sF6.tsx'
 import R4 from './jogos/r4.tsx'
-import ark from './jogos/ark.tsx'
-import batlle from './jogos/batlle.tsx'
-import bta from './jogos/bta.tsx'
-import ds1 from './jogos/ds1.tsx'
-import ds2 from './jogos/ds2.tsx'
-import fifa from './jogos/fifa.tsx'
-import gfw from './jogos/gfw.tsx'
-import gta from './jogos/gta.tsx'
-import halo from './jogos/halo.tsx'
-import haloi from './jogos/haloi.tsx'
-import halo3 from './jogos/halo3.tsx'
-import hrw from './jogos/hrw.tsx'
-import jd4 from './jogos/jd4.tsx'
-import lego from './jogos/lego.tsx'
-import little from './jogos/little.tsx'
-import little2 from './jogos/little2.tsx'
-import mfs from './jogos/mfs.tsx'
-import mine from './jogos/mine.tsx'
+import Ark from './jogos/ark.tsx'
+import Batlle from './jogos/batlle.tsx'
+import Ds2 from './jogos/ds2.tsx'
+import Fifa from './jogos/fifa.tsx'
+import Gta from './jogos/gta.tsx'
+import Halo from './jogos/halo.tsx'
+import Haloi from './jogos/haloi.tsx'
+import Halo3 from './jogos/halo3.tsx'
+import Hrw from './jogos/hrw.tsx'
+import Jd4 from './jogos/jd4.tsx'
+import Little from './jogos/little.tsx'
+import Little2 from './jogos/little2.tsx'
+import Mfs from './jogos/mfs.tsx'
+import Mine from './jogos/mine.tsx'
 import Mk1 from './jogos/Mk1.tsx'
-import nba from './jogos/nba.tsx'
-import out1 from './jogos/out1.tsx'
-import out2 from './jogos/out2.tsx'
-import poké from './jogos/poké.tsx'
-import rust from './jogos/rust.tsx'
-import sF6 from './jogos/sF6.tsx'
+import Nba from './jogos/nba.tsx'
+import Out1 from './jogos/out1.tsx'
+import Out2 from './jogos/out2.tsx'
+import Poké from './jogos/poké.tsx'
+import Rust from './jogos/rust.tsx'
+import SF6 from './jogos/sF6.tsx'
+import Tekke8 from './jogos/tekke8.tsx'
+
 
 
 
@@ -67,6 +65,30 @@ function App() {
             <Route path= "/Mk1" element= {<MK1/>}/>
             <Route path= "/Sf6" element= {<Sf6/>}/>
             <Route path= "/R4" element= {<R4/>}/>
+            <Route path= "/ark" element= {<Ark/>}/>
+            <Route path= "/batlle" element= {<Batlle/>}/>
+            <Route path= "/ds2" element= {<Ds2/>}/>
+            <Route path= "/Fifa" element= {<Fifa/>}/>
+            <Route path= "/Gta" element= {<Gta/>}/>
+            <Route path= "/Halo" element= {<Halo/>}/>
+            <Route path= "/Haloi" element= {<Haloi/>}/>
+            <Route path= "/Halo3" element= {<Halo3/>}/>
+            <Route path= "/Hrw" element= {<Hrw/>}/>
+            <Route path= "/Jd4" element= {<Jd4/>}/>
+            <Route path= "/Little" element= {<Little/>}/>
+            <Route path= "/Little2" element= {<Little2/>}/>
+            <Route path= "/Mfs" element= {<Mfs/>}/>
+            <Route path= "/Mine" element= {<Mine/>}/>
+            <Route path= "/Mk1" element= {<Mk1/>}/>
+            <Route path= "/Nba1" element= {<Nba/>}/>
+            <Route path= "/Out1" element= {<Out1/>}/>
+            <Route path= "/Out2" element= {<Out2/>}/>
+            <Route path= "/poké" element= {<Poké/>}/>
+            <Route path= "/rust" element= {<Rust/>}/>
+            <Route path= "/SF6" element= {<SF6/>}/>
+            <Route path= "/Tekke8" element= {<Tekke8/>}/>
+            <Route path= "/ts" element= {<Ts/>}/>
+
          </Routes>
          </BrowserRouter>
   )

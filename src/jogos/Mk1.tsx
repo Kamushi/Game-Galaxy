@@ -1,8 +1,8 @@
 import'./Mk1.css'
+import mk1 from '../res/mortal-kombat-1-key-art-vb944bnawzlk.webp'
 function Mk1(){
     return(
-    <h1>R$50.00</h1>
-
+    <></>
 )   
 }
 

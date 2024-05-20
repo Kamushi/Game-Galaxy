@@ -63,7 +63,7 @@ function First(){
 
       <div className='jogos'>
 
-        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} href='/Gfw' />
+        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} href='/Gfw'/>
         <a className='card' style={{background: `url(${ts})`, backgroundSize: `cover`}} href='/Ts'/>
         <a className='card' style={{background: `url(${sf6})`, backgroundSize: `cover`}} href='/Sf6'/>
         <a className='card' style={{background: `url(${ds})`, backgroundSize: `cover`}} href='/ds1'/>

@@ -1,4 +1,4 @@
-import'.gta.css'
+import'./gta.css'
 function gta(){
     return(
     <h1>R$50.50</h1>
