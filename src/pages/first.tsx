@@ -3,7 +3,6 @@ import MyButton from '../MyButton'
 import MyInput from '../MyInput'
 import '../res/font-awesome-4.7.0/css/font-awesome.min.css'
 import image from '../res/Game galaxy.png'
-import todos from '../res/Sem título03.png'
 import pspimage from '../res/download.png'
 import xboximage from "../res/640px-Xbox_one_logo.svg.jpg"
 import bignimage from "../res/mc5.png.png"
@@ -47,7 +46,6 @@ function First(){
       <div className='Center'>
         <div className='buttonsCatalogo'>
         
-          <a className='card' style={{background: `url(${todos})`, backgroundSize: `cover`}}  href='/all'/>
           <a className='card' style={{background: `url(${pspimage})`, backgroundSize: `cover`}} href= '/ps5'/>
           <a className='card' style={{background: `url(${xboximage})`, backgroundSize: `cover`}} href='/xbox' />
           <a className='card' style={{background: `url(${bignimage})`, backgroundSize: `cover`}} href='/nintendo'/>
@@ -62,8 +60,7 @@ function First(){
       </div>
 
       <div className='jogos'>
-
-        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} href='/Gfw'/>
+        <a className='card' style={{background: `url(${godc})`, backgroundSize: `cover`}} href='/Gfw'/> 
         <a className='card' style={{background: `url(${ts})`, backgroundSize: `cover`}} href='/Ts'/>
         <a className='card' style={{background: `url(${sf6})`, backgroundSize: `cover`}} href='/Sf6'/>
         <a className='card' style={{background: `url(${ds})`, backgroundSize: `cover`}} href='/ds1'/>

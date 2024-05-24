@@ -1,8 +1,9 @@
 import'./fifa.css'
+import MyButton from '../MyButton'
+
 function fifa(){
     return(
-    <h1>R$50.00</h1>
-
+     <></>
 )   
 }
 

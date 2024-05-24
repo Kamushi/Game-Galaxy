@@ -1,6 +1,10 @@
+import './Ps5.css'
+import Gfw from '../res/God_of_War_Ragnarök_capa.jpg'
 function Ps5(){
      return(
-        <h1>PS5</h1>
+        <div className='jogos'>
+        <a className='card' style={{background: `url(${Gfw })`, backgroundSize: `cover`}} href='/Gfw'/>
+        </div>
     )
 }
 

@@ -1,6 +1,11 @@
+import './nintendo.css'
+import poke from '../res/Pokemon-Scarlet-Violet-Scrn12072022.jpg'
+
 function nintendo  (){
     return(
-        <h1>nintendo </h1>
+        <div className='jogos'>
+        <a className='card' style={{background: `url(${poke })`, backgroundSize: `cover`}} href='/poké'/>
+        </div>
     )
 }
 
