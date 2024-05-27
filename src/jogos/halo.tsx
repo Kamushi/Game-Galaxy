@@ -1,4 +1,4 @@
-import'./halo.css'
+import'./jogos.css'
 import MyButton from '../MyButton'
 import helo from '../res/halo.jpg'
 function halo(){
@@ -9,7 +9,8 @@ function halo(){
             <div className='P'>
                 <h1> Halo Reach</h1>
                 <h2> 55.00 </h2>
-                <h4>Você é um novo membro do esquadrão Noble que segue em uma missão no planeta Reach. Os acontecimentos são ligados a saga Master Chief.</h4>
+                <h4>Você é um novo membro do esquadrão Noble que segue em uma missão no planeta Reach. </h4>
+                <h4> Os acontecimentos são ligados a saga Master Chief.</h4>
                 <div className='button2'>
                     <MyButton>
                     <p>comprar agora</p>

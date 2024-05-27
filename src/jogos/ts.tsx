@@ -1,4 +1,4 @@
-import'./ts.css'
+import'./jogos.css'
 import MyButton from '../MyButton'
 import Ts from '../res/Nova_capa_de_The_Sims_4.png'
 function TS(){
@@ -8,7 +8,8 @@ function TS(){
         <div className='P'>
             <h1> The Sims Sims </h1>
             <h2> R$ 39.99</h2>
-            <h4>Nesse jogo não tem objetivo ou histótia, sendo a graça poder criar sua própria vida e viver.</h4>
+            <h4>Nesse jogo não tem objetivo ou histótia, </h4>
+            <h4>sendo a graça poder criar sua própria vida e viver.</h4>
             <div className='button2'>
                 <MyButton>
                 <p>comprar agora</p>

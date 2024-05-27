@@ -1,4 +1,4 @@
-import'./Mk1.css'
+import'./jogos.css'
 import mk1 from '../res/mortal-kombat-1-key-art-vb944bnawzlk.webp'
 import MyButton from '../MyButton'
 function Mk1(){

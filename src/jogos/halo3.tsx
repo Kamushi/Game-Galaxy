@@ -1,4 +1,4 @@
-import'./halo3.css'
+import'./jogos.css'
 import MyButton from '../MyButton'
 import helo3 from '../res/halo 3.jpg'
 function halo3(){
@@ -8,7 +8,8 @@ function halo3(){
         <div className='P'>
             <h1> Halo 3 </h1>
             <h2> 77.00 </h2>
-            <h4>Você é um novo membro do esquadrão Noble que segue em uma missão no planeta Reach. Os acontecimentos são ligados a saga Master Chief.</h4>
+            <h4>Você é um novo membro do esquadrão Noble que segue em uma missão no planeta Reach.</h4>
+            <h4> Os acontecimentos são ligados a saga Master Chief.</h4>
             <div className='button2'>
                 <MyButton>
                 <p>comprar agora</p>

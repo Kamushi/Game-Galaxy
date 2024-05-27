@@ -1,4 +1,4 @@
-import'./haloi.css'
+import'./jogos.css'
 import MyButton from '../MyButton'
 import heloi from '../res/halo infinite.jpg'
 function haloi(){

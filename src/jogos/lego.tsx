@@ -1,4 +1,4 @@
-import'./lego.css'
+import'./jogos.css'
 import MyButton from '../MyButton'
 import Logo from'../res/lego.webp'
 

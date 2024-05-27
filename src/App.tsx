@@ -22,7 +22,7 @@ import Ds2 from './jogos/ds2.tsx'
 import Fifa from './jogos/fifa.tsx'
 import Gta from './jogos/gta.tsx'
 import Halo from './jogos/halo.tsx'
-import Haloi from './jogos/haloi.tsx'
+import Haloiw from './jogos/haloi.tsx'
 import Halo3 from './jogos/halo3.tsx'
 import Hrw from './jogos/hrw.tsx'
 import Jd4 from './jogos/jd4.tsx'
@@ -71,7 +71,7 @@ function App() {
             <Route path= "/Fifa" element= {<Fifa/>}/>
             <Route path= "/Gta" element= {<Gta/>}/>
             <Route path= "/Halo" element= {<Halo/>}/>
-            <Route path= "/Haloi" element= {<Haloi/>}/>
+            <Route path= "/Haloiw " element= {<Haloiw />}/>
             <Route path= "/Halo3" element= {<Halo3/>}/>
             <Route path= "/Hrw" element= {<Hrw/>}/>
             <Route path= "/Jd4" element= {<Jd4/>}/>

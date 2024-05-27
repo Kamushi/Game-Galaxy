@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
+  
   }
   
   .Topo .Input{
@@ -37,14 +37,14 @@
   .buttons .buttonsExtras{
     padding: 50px;
     border-radius: 10px;
-    position: fixed ;
     right: 0;
   }
   
-  .buttons .buttonsExtras button{
+  /* .buttons .buttonsExtras button{
     border-radius: 100px;
     cursor: pointer;
-  }
+    
+  } */
   
   .buttonsCatalogo {
     padding:15px;

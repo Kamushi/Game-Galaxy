@@ -1,0 +1,15 @@
+
+button{
+    color: white;
+    background-color: purple;
+    display: flex;
+    width: 140.5;
+    height: 21;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-color: gray;
+    justify-content: center;
+    align-items: center;
+
+}

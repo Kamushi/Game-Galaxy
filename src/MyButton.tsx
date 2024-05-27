@@ -11,7 +11,7 @@ interface Props{
 
 function MyButton(props:Props){
     return(
-    <button style={{background:`${props.bgColor}`, height:`${props.altura}`, width:`${props.largura}`,}}>{props.children}</button>
+        <button style={{background:`${props.bgColor}`, height:`${props.altura}`, width:`${props.largura}`,}}>{props.children}</button>
     )
 }
 export default MyButton
