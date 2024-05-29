@@ -35,7 +35,7 @@ function First(){
         </div>
         <div className='buttons'>
           <div className='buttonPesquisa'>
-            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton> 
+            <MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-space-shuttle" aria-hidden="true"></i></MyButton>
           </div>
           <div className='buttonsExtras'>
             <a href='/formulatio'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton></a>

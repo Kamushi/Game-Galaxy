@@ -9,7 +9,7 @@ function formulário (){
 
 
 return (
-    <div className="container4">
+    <div className="con4">
         <h1 className="title"></h1>
 
         <form className="from" onSubmit= {() => {}}>
