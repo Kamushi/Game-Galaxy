@@ -40,6 +40,7 @@ function First(){
           <div className='buttonsExtras'>
             <a href='/formulatio'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-comments-o" aria-hidden="true"></i></MyButton></a>
             <a href='/login'><MyButton bgColor='white' altura='33px' largura='40px'><i className="fa fa-user-circle" aria-hidden="true"></i></MyButton></a>
+            <a href=''> <MyButton bgColor='White' altura='33px' largura='40px'><i className="fa-solid fa-cart-shopping" aria-hidden></i></MyButton></a>
           </div>
         </div>
       </div>
