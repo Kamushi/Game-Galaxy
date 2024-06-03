@@ -50,7 +50,6 @@
               <a className='card' style={{background: `url(${pspimage})`, backgroundSize: `cover`}} href= '/ps5'/>
               <a className='card' style={{background: `url(${xboximage})`, backgroundSize: `cover`}} href='/xbox' />
               <a className='card' style={{background: `url(${bignimage})`, backgroundSize: `cover`}} href='/nintendo'/>
-              <a className='card' style={{background: `url(${Cinquentaimage})`, backgroundSize: `cover`}} href='/offer'/>
             </div>
           </div>
 
