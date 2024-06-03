@@ -1,16 +1,18 @@
+import './meubotao.css'
 
+import { ReactNode } from 'react';
 
-const MeuBotao = () => {
-  return (
-    <button
-      style={{
-        width: '100px',
-        height: '50px'
-      }}
-    >
-      <img src="./res/download.png" alt="Minha Imagem" />
-      <span>Meu Botão</span>
-    </button>
-  );
+interface Props{
+    bgColor?: string;
+    bgImg?: string;
+    children: ReactNode;
+    altura?: string;
+    largura?:string;
 }
-export default MeuBotao;
+
+function MyButton(props:Props){
+    return(
+        <button style={{background:`${props.bgColor}`, height:`${props.altura}`, width:`${props.largura}`,}}>{props.children}</button>
+    )
+}
+export default MyButton

@@ -5,7 +5,6 @@ import Xbox from './pages/xbox'
 import Nintendo from './pages/nintendo'
 import All from './pages/all.tsx'
 import Offer from './pages/offer.tsx'
-import Car from './pages/car.tsx'
 import Login from './login/login.jsx'
 import Fro from './form/formulário.tsx'
 import Ds1 from './jogos/ds1.tsx'
@@ -39,6 +38,8 @@ import Poké from './jogos/poké.tsx'
 import Rust from './jogos/rust.tsx'
 import SF6 from './jogos/sF6.tsx'
 import Tekke8 from './jogos/tekke8.tsx'
+import Carro from './pages/car.tsx'
+
 
 
 
@@ -49,7 +50,7 @@ function App() {
   return(
     <BrowserRouter>
          <Routes>
-            <Route path= "/" element={<First />}/>
+            <Route path= "/First" element={<First />}/>
             <Route path= "/ps5" element={<Ps5 />}/>
             <Route path= "/xbox" element= {<Xbox/>}/>
             <Route path= "/nintendo" element= {<Nintendo/>}/>
@@ -90,7 +91,7 @@ function App() {
             <Route path= "/SF6" element= {<SF6/>}/>
             <Route path= "/Tekke8" element= {<Tekke8/>}/>
             <Route path= "/ts" element= {<Ts/>}/>
-            <Route path= "/Car" element= {<Car/>}/>
+            <Route path= "/Carro" element= {<Carro/>}/>
 
          </Routes>
          </BrowserRouter>
