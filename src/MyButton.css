@@ -3,7 +3,7 @@ button{
     color: white;
     background-color: purple;
     display: flex;
-    width: 140.5;
+    width: 140;
     height: 21;
     justify-content: center;
     margin-top: 200px;
@@ -11,5 +11,4 @@ button{
     border-color: gray;
     justify-content: center;
     align-items: center;
-
 }

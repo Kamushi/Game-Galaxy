@@ -1,4 +1,4 @@
-.con03 {
+.con8{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,10 +7,10 @@
     background-image:url('https://images7.alphacoders.com/135/1351186.png');
   }
   
-  .container h1 {
+  .con8 h1 {
     text-align: center;
     font-size: 30px;
-    color: purple;
+    color: red;
   }
   
   .container .input-field {
