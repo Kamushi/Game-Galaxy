@@ -1,4 +1,5 @@
-import'./sF6.css'
+
+import './sF6.css'
 import MyButton from '../MyButton'
 import Sf6 from '../res/Street_Fighter_6_box_art.jpg'
 function sF6(){
@@ -16,7 +17,7 @@ function sF6(){
                 <MyButton>
                 <p>comprar agora</p>
                 </MyButton>
-                <div className='button2'>
+                <div className='button3'>
                     <MyButton>
                     <p>adicionar ao carrinho</p>
                     </MyButton>

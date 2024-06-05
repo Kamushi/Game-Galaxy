@@ -13,10 +13,13 @@ function poké(){
                 <MyButton>
                 <p>comprar agora</p>
                 </MyButton>
-                <div className='button2'>
+                <div className='button3'>
                     <MyButton>
                     <p>adicionar ao carrinho</p>
                     </MyButton>
+                    <div className=''>
+
+                    </div>
                 </div>
             </div>
         </div>

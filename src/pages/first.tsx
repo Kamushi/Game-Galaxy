@@ -6,7 +6,6 @@
     import pspimage from '../res/download.png'
     import xboximage from "../res/640px-Xbox_one_logo.svg.jpg"
     import bignimage from "../res/mc5.png.png"
-    import Cinquentaimage from "../res/mc7.png.png"
     import ImagensBanner from '../ImagensBanner'
     import godc from '../res/God_of_War_Ragnarök_capa.jpg'
     import ts from '../res/The_Sims_4_29.webp'

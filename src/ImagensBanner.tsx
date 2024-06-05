@@ -15,7 +15,7 @@ import r4 from './res/resident.jpg'
 
 
 function App () {
-    const [slidesPerView, setSlidePerView,] = useState (0)
+    const [slidesPerView, setSlidePerView,] = useState (3)
     const data =[
         {id:'1', Image: bu2024} ,
         {id: '2', Image: gfg4},
@@ -49,7 +49,7 @@ function App () {
 
     
     return  (
-        <div className= "contaienr2">
+        <div className= "contaienr06">
 
     
     <Swiper

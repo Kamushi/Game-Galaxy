@@ -1,12 +1,12 @@
 import './jogos.css'
-import Gfw from '../res/God_of_War_Ragnarök_capa.jpg'
 import MyButton from '../MyButton'
+import Gfw from '../res/God_of_War_Ragnarök_capa.jpg'
+
 
 
  function gfw(){
     return(
         <div className='jogo'>
-            {/* <a className='card' style={{background: `url(${Gfw})`, backgroundSize: `cover`}} href='/Gfw'/> */}
             <div className='jogo-img' style={{background: `url(${Gfw})`, backgroundSize: `cover`}}></div>
             <div className='P'>
                 <h1> God of War Ragnarök</h1>
