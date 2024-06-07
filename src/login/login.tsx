@@ -8,7 +8,7 @@ const login = () =>{
     const[password, setpasswrd] = useState("")
 
     const handleSubmite = () =>{   
-        alert ("ennviando os dados:" + username + "-" + password);
+        alert ("enviando os dados:" + username + "-" + password);
     }
 
     return (
@@ -32,15 +32,15 @@ const login = () =>{
                 <div className='recall-forget'>
                         <label>
                             <input type= "checkbox"/>
-                            lember de min
+                            Lembre de mim
                         </label>
-                        <a href="#"> esqueceu a senha?</a>
+                        <a href="#">Esqueceu sua senha?</a>
                     </div>
                 <div>
                     <button>Entrar</button>
                 </div>
                     <div className='sigunp-link'/>
-                    <p>não tem uma conta? <a href='#'>Registera</a></p>
+                    <p>Ainda não tem uma conta? <a href='#'>Registrar</a></p>
             </form>
         </div>
         
