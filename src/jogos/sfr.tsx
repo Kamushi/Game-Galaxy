@@ -11,7 +11,7 @@ function sfr(){
             <h4>Onde um novo sindicato do crime assuimiu o controle das ruas e da polícia, apenas você pode fazer algo. Traz gráficos inspirados em quadrinhos desenhados a mão, carreganhdo a ostalgia de uma vibe mais retro.  </h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'><p>comprar agora</p></a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

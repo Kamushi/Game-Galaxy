@@ -12,7 +12,7 @@ function TS(){
             <h4>sendo a graça poder criar sua própria vida e viver.</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'> <p>comprar agora</p> </a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

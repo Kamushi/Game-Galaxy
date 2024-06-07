@@ -12,7 +12,7 @@ function ds1(){
             <h4>que iniciou uma peregrinação para descrobrir o destino de sua espécie</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'> <p>comprar agora</p> </a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

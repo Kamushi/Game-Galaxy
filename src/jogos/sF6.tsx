@@ -15,7 +15,7 @@ function sF6(){
             <h4>fazendo com que nossos heróis tenham que se juntar para derrota-lá.</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'> <p>comprar agora</p> </a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

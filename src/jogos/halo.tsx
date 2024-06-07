@@ -13,7 +13,7 @@ function halo(){
                 <h4> Os acontecimentos são ligados a saga Master Chief.</h4>
                 <div className='button2'>
                     <MyButton>
-                    <p>comprar agora</p>
+                    <a href='/Pagamento'> <p>comprar agora</p> </a>   
                     </MyButton>
                     <div className='button3'>
                         <MyButton>

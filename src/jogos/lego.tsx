@@ -12,7 +12,7 @@ function lego(){
             <h4>É um jogo de aventura e ação que abrange toda a saga cinematográfica de star wars, desde A smeaça  Fantasma até a Ascensão Skywalker.</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'> <p>comprar agora</p> </a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

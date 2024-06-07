@@ -12,7 +12,7 @@ function bat(){
             <h4> enfrentar o super-vilão Espantalho que em uma ataque causou a evacuação da  cidade.</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'> <p>comprar agora</p> </a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>

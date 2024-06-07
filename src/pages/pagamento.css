@@ -1,8 +1,8 @@
 .body01{
     background-image:url('https://images7.alphacoders.com/135/1351186.png');
     color: #ffffff;
-    width: 100vw;
-    height: 100vh;
+    width: 150vw;
+    height: 150vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -44,7 +44,7 @@ h1 h2{
     color: #ffffff;
     font-weight: 700;
     text-shadow: none;
-    border-color: gray    
+    border-color: gray;
 }
 
 .formaP{

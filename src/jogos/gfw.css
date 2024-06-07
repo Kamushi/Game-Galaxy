@@ -53,6 +53,12 @@
     display:flex;
     width: 140.5;
     height: 21;
+
+
+  }
+  
+  .button2 p{
+    color: white;
   }
 
   .button3{
@@ -60,6 +66,8 @@
     width: 140.5;
     height: 21;
   }
+
+
   
 .cometairo{
   display: flex;
