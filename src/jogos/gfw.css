@@ -61,20 +61,14 @@
     height: 21;
   }
   
-
-/*.jogo-infos{
-    /* background-color: red; 
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    align-items: center;
+.cometario{
+  margin-top: 150px;
+  display: flex;
+  background-color:  red;
 }
 
-.jogo{
-    display: flex;
-    flex-direction: column;
+.cometario h4{
+  margin-top: 150px;
+  display: flex;
+  
 }
-
-.contaienr2{
-    width: 20%;
-}*/

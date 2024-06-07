@@ -23,6 +23,11 @@ import Gfw from '../res/God_of_War_Ragnarök_capa.jpg'
                         <MyButton>
                         <p>adicionar ao carrinho</p>
                         </MyButton>
+                        <div className='cometairo'>
+                                <h4>
+                                "A história entre Kratos e Atreus é uma das melhores que já vi em um jogo. A evolução dos personagens é incrível."
+                                </h4>
+                        </div>
                     </div>
                 </div>
             </div>
