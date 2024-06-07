@@ -25,14 +25,14 @@ return (
         <input
         className="input"
         type="text"
-        placeholder="dIgite seu Email"
+        placeholder="Digite seu Email"
         onChange={(e) => setEmail(e.target.value)}
         value={email}
       />
 
       <textarea
       className="textarea"
-      placeholder="digiti sua mansagem..."
+      placeholder="Digite sua mensagem..."
       onChange={(e) => setMessage(e.target.value)}
         value={message}
         />

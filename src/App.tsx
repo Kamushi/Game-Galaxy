@@ -39,6 +39,7 @@ import Rust from './jogos/rust.tsx'
 import SF6 from './jogos/sF6.tsx'
 import Tekke8 from './jogos/tekke8.tsx'
 import Carro from './pages/car.tsx'
+import Pagamento from './pages/pagamento.tsx'
 
 
 
@@ -92,6 +93,8 @@ function App() {
             <Route path= "/Tekke8" element= {<Tekke8/>}/>
             <Route path= "/ts" element= {<Ts/>}/>
             <Route path= "/Carro" element= {<Carro/>}/>
+            <Route path= "/Pagamento" element= {<Pagamento/>}/>
+
 
          </Routes>
          </BrowserRouter>
