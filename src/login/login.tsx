@@ -12,7 +12,7 @@ const login = () =>{
     }
 
     return (
-        <div className='con03'>
+        <div className='con8'>
             <form onSubmit={handleSubmite}>
                 <h1>Acesse o sistema</h1>
                 <div>

@@ -8,7 +8,7 @@ function car(){
         <h1> por favor escolha um jogo</h1>
         <div className='mb'>
             <MyButton>
-             <a href='/First'><h4> página principai </h4></a>
+             <a href='/'><h4> página principai </h4></a>
             </MyButton>
         </div>
         </div>

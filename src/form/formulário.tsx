@@ -9,8 +9,10 @@ function formulário (){
 
 
 return (
-    <div className="con4">
-        <h1 className="title"></h1>
+    <div className="con7">
+        <h1 className="fromulário"></h1>
+        
+            <h1> nos avalie</h1>
 
         <form className="from" onSubmit= {() => {}}>
             <input

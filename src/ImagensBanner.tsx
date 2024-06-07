@@ -15,7 +15,7 @@ import r4 from './res/resident.jpg'
 
 
 function App () {
-    const [slidesPerView, setSlidePerView] = useState (2)
+    const [slidesPerView, setSlidePerView,] = useState (3)
     const data =[
         {id:'1', Image: bu2024} ,
         {id: '2', Image: gfg4},
@@ -26,13 +26,12 @@ function App () {
         {id: '7', Image: r4},
     
 
-
     ]
 
     useEffect(() => {
        function HandleResie(){
         if(window.innerHeight < 720){
-            setSlidePerView(1)
+            setSlidePerView(7)
         }else{
             setSlidePerView(2)
         }
@@ -50,7 +49,7 @@ function App () {
 
     
     return  (
-        <div className= "contaienr2">
+        <div className= "contaienr06">
 
     
     <Swiper

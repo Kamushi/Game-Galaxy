@@ -1,16 +1,29 @@
+
 .text h1{
     align-items: center;
-    margin-left: 550px;
-    margin-top: 1000;
+    margin-left: 580px;
+    margin-top: 80px;
+    color: black;
 }
+
+.text h2{
+    align-items: center;
+    margin-left: 580px;
+    margin-top: 80px;
+}
+
 
 .mb h4{
     color: white;
 }
 
+.mb button{
+    width: 500px;
+    height: 80px;
+}
+
 .text .mb{
     align-items: center;
     margin-left: 580px;
-    width: 500;
-    
+    width: 500; 
 }
