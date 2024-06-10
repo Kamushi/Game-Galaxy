@@ -32,7 +32,7 @@
 
   .jogos .P h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
+    text-align: center;
     display: inline-flex;
   }
 

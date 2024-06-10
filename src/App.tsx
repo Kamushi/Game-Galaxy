@@ -57,6 +57,8 @@ function App() {
             <Route path= "/offer" element= {<Offer/>}/>
             <Route path= "/login" element= {<Login/>}/>
             <Route path= "/formulatio" element= {<Fro/>}/>
+            <Route path= "/Carro" element= {<Carro/>}/>
+            <Route path= "/Pagamento" element= {<Pagamento/>}/>
             <Route path= "/ds1" element= {<Ds1/>}/>
             <Route path= "/ds1" element= {<Ds1/>}/>
             <Route path= "/Gfw" element= {<Gfw/>}/>
@@ -90,8 +92,6 @@ function App() {
             <Route path= "/SF6" element= {<SF6/>}/>
             <Route path= "/Tekke8" element= {<Tekke8/>}/>
             <Route path= "/ts" element= {<Ts/>}/>
-            <Route path= "/Carro" element= {<Carro/>}/>
-            <Route path= "/Pagamento" element= {<Pagamento/>}/>
 
 
          </Routes>

@@ -67,10 +67,18 @@
     height: 21;
   }
 
+.foto01{
+  background-color: purple;
+    width: 420px;
+    height: 450px;
+    border: 20px;
+    box-shadow: 15px;
+    border: 5px solid;
+    border-color: purple;
+}
 
-  
-.cometairo{
+.foto01 .comentário{
   display: flex;
-  align-items: center;
-
+  text-align: center;
+  text-rendering: auto;
 }

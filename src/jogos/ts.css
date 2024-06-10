@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
   }
 
   .jogo{
@@ -12,6 +13,7 @@
   .jogos .P {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: purple;
+
   }
 
 
@@ -19,7 +21,7 @@
     margin-right: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: purple;
-    
+
   }
 
   .jogo .P h2{
@@ -31,6 +33,7 @@
 
   .jogos .P h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     align-items: center;
     display: inline-flex;
   }

@@ -11,7 +11,7 @@ function Mk1(){
             <h4>Dando continuidade dos eventos de Aftermath, logo após de absorver os poderes de Raiden para derrotar Kronika, Liu Kang se torna um Deus e recria o universo baseado em suas próprias crença.</h4>
             <div className='button2'>
                 <MyButton>
-                <p>comprar agora</p>
+                <a href='/Pagamento'><p>comprar agora</p></a>
                 </MyButton>
                 <div className='button3'>
                     <MyButton>
