@@ -9,7 +9,7 @@ import helo from './res/halo.jpg'
 import hifi from './res/hi-fi.jpg'
 import poke from './res/Pokemon-Scarlet-Violet-Scrn12072022.jpg'
 import oul from './res/poster-outlast-2-e432a5e7.webp'
-import r4 from './res/resident.jpg'
+import r4 from  './res/1282341.jpg'
 
 
 

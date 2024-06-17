@@ -117,28 +117,29 @@
 
 
   .jogos .card{
-    display: inline-table;  
+    display: flex;
     justify-content: left;
+    margin-bottom: 4%;
     align-items: left;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 475.50px;
+    height: 475.50px;
     cursor: pointer;
     box-shadow: 15%;
-    
+    border: 5px solid;
+    border-color: purple; 
   }
 
   .linha{
     background-image: url("../res/image.png");
-    margin-top: 4px;
-    color: purple;
-
+    margin-top: 5px;
+  
   }
 
   .linha h1{
     display: flex;
     margin-left: 100px;
     justify-content: center;
-    color: white;
+    color: whitesmoke;
   }
 
