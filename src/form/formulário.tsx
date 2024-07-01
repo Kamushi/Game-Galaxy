@@ -10,13 +10,15 @@ function formulário (){
 
 return (
     <div className="con7">
-        <h1 className="fromulário"></h1>
+            <div className="titulo">
+                <h1>nos avalie</h1>
+            </div>
         
-            <h1> nos avalie</h1>
+            
 
         <form className="from" onSubmit= {() => {}}>
             <input
-            className="input"
+            className="input-formulario"
             type="text"
             placeholder="Digite seu nome"
             onChange={(e) => setName (e.target.value)}
@@ -25,7 +27,7 @@ return (
         
 
         <input
-        className="input"
+        className="input-formulario"
         type="text"
         placeholder="Digite seu Email"
         onChange={(e) => setEmail(e.target.value)}
@@ -38,7 +40,9 @@ return (
       onChange={(e) => setMessage(e.target.value)}
         value={message}
         />
+        <div className="button-formulario">
             <input className="button" type="submit" value="Enviar" />
+        </div>
         </form>
 
     </div>

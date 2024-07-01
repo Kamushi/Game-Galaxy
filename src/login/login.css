@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     background-image:url('https://images7.alphacoders.com/135/1351186.png');
+    color: white;
+    margin: 0;
   }
   
   .con8 h1 {
@@ -13,6 +15,30 @@
     color: purple;
   }
   
+  .Fl h1{
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+
+  }
+.input input{
+  width: 300px;
+  height: 40px;
+  display: 100px;
+  align-items:center;
+  margin: 0%;
+
+}
+
+.input2 input{
+  width: 300px;
+  height: 40px;
+  display: 100px;
+  margin-top: 15px;
+  align-items: center;  
+}
+
+
   .container .input-field {
     position: relative;
     width: 100%;
@@ -34,16 +60,18 @@
   
   .input-field input::placeholder {
     color: #fff;
+    width: 100px; 
   }
   
   .input-field .icon {
     position: absolute;
-    right: 25px;
+    right: 100px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
   }
+
   
   .container .recall-forget {
     display: flex;
@@ -55,6 +83,7 @@
   .recall-forget label input {
     accent-color: #fff;
     margin-right: 4px;
+    margin-top: 10px;
   }
   
   .recall-forget a {
@@ -106,6 +135,15 @@
    
   }
   
-  h1{
+  .Fl h1{
     color: purple;
+    align-items: center;
+    margin-right: 45px;
+  }
+
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }

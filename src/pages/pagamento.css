@@ -4,6 +4,9 @@
     width: 150vw;
     height: 150vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    align-items: center;
+    padding-left: 200px;
 }
 
 .produto h1{
@@ -12,11 +15,19 @@
    
 }
 
-h1 h2{
+.FormaP h1{
+    margin-right: 1500px;
+    margin-top: 40px;
+}
+
+.FormaP h1 h2{
     justify-content: center;
 }
 
+button{
+    margin-top: 55px;
 
+}
 .buttonadicionar button{
     width: 100px;
     height: 45px;
@@ -45,6 +56,7 @@ h1 h2{
     font-weight: 700;
     text-shadow: none;
     border-color: gray;
+    width: 200px;
 }
 
 .formaP{

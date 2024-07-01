@@ -7,11 +7,19 @@
     background-image:url('https://images7.alphacoders.com/135/1351186.png');
     color: purple;
     padding: 14px;
+
   }
 
-  h1{
+
+
+  .titulo h1{
     margin-bottom: 190px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1500px;
+    margin: 0;
+    margin-bottom: 100px;
+
+    
   }
   
   .title{
@@ -24,16 +32,25 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+
+  }
+
+  .textarea{
+    width: 162px;
+    align-items: center;
   }
   
-  .input{
+  .input-formulario{
+    width: 250px;
     margin-bottom: 14px;
     height: 34px;
     border-radius: 4px;
     border: 0;
-    padding: 0 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
   }
-  
+
   .textarea{
     margin-bottom: 14px;
     border-radius: 4px;
@@ -41,20 +58,22 @@
     padding: 8px;
     height: 94px;
     resize: none;
+    width: 244px;
   }
   
-  .button{
+  .button-formulario{
+    color: purple;
     height: 34px;
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-    background-color: purple;
     font-size: 18px;
-    transition: background-color, transform 0.8s;
+    background-color: transparent;
+   
+
+    
   }
   
-  .button:hover{
-    background-color: white;
-    color: purple;
+  .button-formulario:hover{
     transform: scale(1.01);
   }
