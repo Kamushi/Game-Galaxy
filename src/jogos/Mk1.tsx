@@ -8,7 +8,8 @@ function Mk1(){
         <div className='P'>
             <h1> Mortal Kombat 1 </h1>
             <h2> R$ 201.99</h2>
-            <h4>Dando continuidade dos eventos de Aftermath, logo após de absorver os poderes de Raiden para derrotar Kronika, Liu Kang se torna um Deus e recria o universo baseado em suas próprias crença.</h4>
+            <h4>Dando continuidade dos eventos de Aftermath, logo após de absorver os poderes de Raiden para derrotar Kronika, </h4>
+            <h4>Liu Kang se torna um Deus e recria o universo baseado em suas próprias crença.</h4>
             <div className='button2'>
                 <MyButton>
                 <a href='/Pagamento'><p>comprar agora</p></a>

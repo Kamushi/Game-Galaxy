@@ -9,7 +9,8 @@ function lego(){
         <div className='P'>
             <h1> Lego Star Wars: Skywalker saga (2021)</h1>
             <h2> R$ 122.00</h2>
-            <h4>É um jogo de aventura e ação que abrange toda a saga cinematográfica de star wars, desde A smeaça  Fantasma até a Ascensão Skywalker.</h4>
+            <h4>É um jogo de aventura e ação que abrange toda a saga cinematográfica de star wars,</h4>
+            <h4>desde A ameaça  Fantasma até a Ascensão Skywalker.</h4>
             <div className='button2'>
                 <MyButton>
                 <a href='/Pagamento'> <p>comprar agora</p> </a>

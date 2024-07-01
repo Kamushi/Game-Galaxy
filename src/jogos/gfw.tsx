@@ -11,10 +11,8 @@
                     <div className='P'>
                         <h1>God of War Ragnarök</h1>
                         <h2>201.99</h2>
-                    <h4> O jogo da início ao Ragnarok, </h4>
-                    <h4> uma série de eventos que trazem os </h4>
-                    <h4> fins dos tempos e retrata a</h4>
-                    <h4> morte de alguns dos deuses nórdico.</h4>
+                    <h4> O jogo dá início ao Ragnarok, uma série de eventos que trazem os</h4>
+                    <h4>fins dos tempos e retrata a morte de alguns dos deuses nórdicos. </h4>
                             <div className='button2'>
                                 <MyButton>
                                 <a href='/Pagamento'> <p>comprar agora</p> </a>   

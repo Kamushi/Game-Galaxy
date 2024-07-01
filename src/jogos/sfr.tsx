@@ -8,7 +8,8 @@ function sfr(){
         <div className='P'>
             <h1>  Streets of rage 4</h1>
             <h2> R$ 143.00</h2>
-            <h4>Onde um novo sindicato do crime assuimiu o controle das ruas e da polícia, apenas você pode fazer algo. Traz gráficos inspirados em quadrinhos desenhados a mão, carreganhdo a ostalgia de uma vibe mais retro.  </h4>
+            <h4>Um novo sindicato do crime assume o controle das ruas e da polícia, apenas você pode fazer algo.</h4>
+            <h4>Traz gráficos inspirados em quadrinhos desenhados a mão, carreganhdo a nostalgia e uma vibe mais retrô.  </h4>
             <div className='button2'>
                 <MyButton>
                 <a href='/Pagamento'><p>comprar agora</p></a>

@@ -8,8 +8,8 @@ function TS(){
         <div className='P'>
             <h1> The Sims Sims </h1>
             <h2> R$ 39.99</h2>
-            <h4>Nesse jogo não tem objetivo ou histótia, </h4>
-            <h4>sendo a graça poder criar sua própria vida e viver.</h4>
+            <h4>Nesse jogo não há um objetivo ou historia definidos, </h4>
+            <h4>você escolhe como vai viver a própria vida</h4>
             <div className='button2'>
                 <MyButton>
                 <a href='/Pagamento'> <p>comprar agora</p> </a>

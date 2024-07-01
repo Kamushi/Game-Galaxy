@@ -8,8 +8,8 @@ function ds1(){
         <div className='P'>
             <h1> Drak souls  </h1>
             <h2> R$ 120.00 </h2>
-            <h4>Onde o jogador assume oa vida de um morto vivo amaldiçoado </h4>
-            <h4>que iniciou uma peregrinação para descrobrir o destino de sua espécie</h4>
+            <h4>O jogador assume a vida de um morto-vivo amaldiçoado</h4>
+            <h4>que inicia uma peregrinação para descrobrir seu destino e sua origem</h4>
             <div className='button2'>
                 <MyButton>
                 <a href='/Pagamento'> <p>comprar agora</p> </a>

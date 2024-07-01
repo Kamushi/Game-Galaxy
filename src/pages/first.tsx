@@ -55,7 +55,7 @@
           <ImagensBanner/>
 
           <div className='linha'>
-          <h1> 12 vezes s﻿em juros  15% de descontono boleto  Entrega em todo o Brasil Site 100% seguro</h1> 
+          <h1> 12 vezes s﻿em juros  15% de desconto no boleto Entrega em todo o Brasil - Site 100% seguro</h1> 
           </div>
 
           <div className='jogos'>
